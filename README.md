@@ -76,3 +76,25 @@ Planned broad-area current monitoring/supporting evidence.
 - [ ] India-focused evaluation
 - [ ] Model improvement
 - [ ] End-to-end web prototype
+
+
+## Benchmark Evidence
+
+The current prototype was evaluated on 10 SpaceNet 7 scenes across five AOIs and two time points.
+
+The repository includes:
+
+- `results/benchmark_results.csv` — numerical benchmark results
+- `results/benchmark_visuals/` — visual analysis for all 10 scenes
+- `results/benchmark_visuals/10_scene_contact_sheet.png` — overview of all scenes
+- `results/demo_cases/` — detailed Best / Typical / Hard case analysis
+
+### Representative Cases
+
+| Case | F1 | IoU |
+|---|---:|---:|
+| Best | 0.9016 | 0.8208 |
+| Typical | 0.7416 | 0.5893 |
+| Hard | 0.5719 | 0.4004 |
+
+The hard case is intentionally included to show model limitations and avoid presenting performance from a single cherry-picked scene.
