@@ -1,0 +1,16 @@
+*.tar
+*.tar.gz
+*.zip
+*.tif
+*.tiff
+*.pth
+*.pt
+*.ckpt
+*.geojson
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+groundtruth_benchmark/
+sn7_real/
